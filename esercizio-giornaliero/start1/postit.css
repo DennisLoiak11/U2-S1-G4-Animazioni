@@ -1,0 +1,80 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    margin-top: 50px;
+    font-family: "Indie Flower", cursive;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 97%;
+}
+
+.post-it:nth-of-type(1) {
+    background-color: burlywood;
+    transform: rotate(-5deg);
+}
+
+.post-it:nth-of-type(2) {
+    background-color: powderblue;
+    transform: rotate(5deg);
+}
+
+.post-it:nth-of-type(3) {
+    background-color: mediumslateblue;
+    transform: rotate(-4deg);
+}
+
+.post-it:nth-of-type(4) {
+    background-color: powderblue;
+    transform: rotate(8deg);
+}
+
+.post-it:nth-of-type(5) {
+    background-color: burlywood;
+    transform: rotate(-5deg);
+}
+
+.post-it:nth-of-type(6) {
+    background-color: mediumslateblue;
+    transform: rotate(9deg);
+}
+
+.post-it:nth-of-type(7) {
+    background-color: burlywood;
+    transform: rotate(4deg);
+}
+
+.post-it:nth-of-type(8) {
+    background-color: powderblue;
+    transform: rotate(4deg);
+}
+
+.post-it {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    box-shadow: 5px 5px 19px -1px #000000;
+    margin: 30px;
+    transition: 200ms;
+}
+
+.post-it h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.post-it p {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+}
+
+.post-it:hover {
+    box-shadow: 5px 5px 25px 7px #000000;
+    transform: scale(1.1) rotate(0);
+}
